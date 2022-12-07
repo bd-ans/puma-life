@@ -576,6 +576,11 @@ body {
   cursor: pointer;
 }
 
+.video-top-right-play-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 /* FEATURE SECTION */
 
 .feature-sec {
