@@ -495,6 +495,54 @@ body {
   transition: 0.3s;
 }
 
+/* VIDEO SECTION */
+
+.video-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 205px;
+  padding: 0 25px;
+}
+
+.video-left-content {
+  width: 50%;
+}
+
+.video-right-content {
+  width: 50%;
+  background-color: #746558;
+}
+
+.video-left-top-content-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 300;
+  color: #FF8947;
+  user-select: none;
+}
+
+.video-left-center-content-txt {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 55px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 8px;
+  line-height: normal;
+}
+
+.video-left-bottom-content-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
 /* FOOTER */
 
 .Footer {
