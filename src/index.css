@@ -816,6 +816,79 @@ body {
   transform: scale(1.04);
 }
 
+.gallery-images-card-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.gallery-images-card {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 15px; */
+}
+
+.gallery-images-card:hover {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.gallery-product-info-box {
+  margin-left: 30px;
+}
+
+.gallery-images-card-list {
+  list-style: none;
+}
+
+.gallery-images-card-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  margin-top: -11px;
+}
+
+.gallery-images-card-list-p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.gallery-images-card-list-span {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000;
+  margin-left: 18px;
+}
+
+.gallery-buy-now-btn {
+  font-family: 'Rowdies', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 300;
+  color: #FFF;
+  background-color: #FF9635;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 17px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.gallery-buy-now-btn:hover {
+  background-color: #FF7F00;
+  transition: 0.3s;
+}
 
 /* FOOTER */
 
