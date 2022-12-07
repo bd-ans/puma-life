@@ -45,7 +45,7 @@ export default function VideoSec() { /* EXPORT VIDEO SECTION */
                     alt="video img" 
                     width={547}
                     height={309}/>
-
+                  {/* VIDEO TOP RIGHT CONTENT PLAY IMG */}
                     <img className='video-top-right-play-img'
                     src={VideoPlayImg} 
                     alt="video img" 
