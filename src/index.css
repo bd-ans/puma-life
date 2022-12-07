@@ -576,9 +576,123 @@ body {
   cursor: pointer;
 }
 
+/* FEATURE SECTION */
 
+.feature-sec {
+  margin-top: 220px;
+}
 
+.feature-inner-shrt-title {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  color: #FF8947;
+}
 
+.feature-inner-title {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  color: #000;
+  margin-top: 7px;
+}
+
+.feature-cards-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 84px;
+}
+
+.feature-card {
+  width: 32.25%;
+  /* height: 500px; */
+  background-color: #FFF;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card-img-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 53px;
+}
+
+.feature-card-img-background {
+  width: 154px;
+  height: 154px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #F9F9F9;
+}
+
+.feature-card-img {
+  width: 108px;
+  height: 105px;
+}
+
+.feature-card-title-txt {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.feature-card-txt-p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  margin: 0 35px;
+  margin-top: 20px;
+}
+
+.feature-card-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-card-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FF8B37;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.feature-card-btn:hover {
+  color: #FF7F00;
+  transition: 0.3s;
+  text-decoration: underline;
+}
 
 /* FOOTER */
 
