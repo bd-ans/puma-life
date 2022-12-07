@@ -703,7 +703,6 @@ body {
 
 .gallery-inner {
   margin: 0 31px;
-  margin-right: 40px;
   margin-top: 236px;
 }
 
@@ -790,6 +789,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 11px;
 }
 
 .gallary-caterogies-next-btn {
@@ -803,7 +803,7 @@ body {
 }
 
 .gallary-caterogies-next-btn:first-child {
-  margin-right: 47px;
+  margin-right: 45px;
 }
 
 .gallary-caterogies-next-btn-img {
