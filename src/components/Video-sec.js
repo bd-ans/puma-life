@@ -1,5 +1,6 @@
 import VideoBackImg from '../assets/images/bag-ekskalatordan-opa.png'; /* IMPORT IMG */
 import VideoOldImg from '../assets/images/sumkali-op.png'; /* IMPORT IMG */
+import VideoPlayImg from '../assets/images/play-video.png'; /* IMPORT IMG */
 export default function VideoSec() { /* EXPORT VIDEO SECTION */
   return (
     <>
@@ -44,6 +45,12 @@ export default function VideoSec() { /* EXPORT VIDEO SECTION */
                     alt="video img" 
                     width={547}
                     height={309}/>
+
+                    <img className='video-top-right-play-img'
+                    src={VideoPlayImg} 
+                    alt="video img" 
+                    width={85}
+                    height={95}/>
                 </div>
               </div>
             </div>
