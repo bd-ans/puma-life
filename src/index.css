@@ -1,13 +1,502 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* FONTS */
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../src/assets/fonts/poppins/poppins-v20-latin-300.woff2') format('woff2'),
+    url('./assets/fonts/poppins/poppins-v20-latin-300.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/poppins/poppins-v20-latin-regular.woff2') format('woff2'),
+    url('./assets/fonts/poppins/poppins-v20-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/poppins/poppins-v20-latin-500.woff2') format('woff2'),
+    url('./assets/fonts/poppins/poppins-v20-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/poppins/poppins-v20-latin-600.woff2') format('woff2'),
+    url('./assets/fonts/poppins/poppins-v20-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/poppins/poppins-v20-latin-700.woff2') format('woff2'),
+    url('./assets/fonts/poppins/poppins-v20-latin-700.woff') format('woff');
+}
+
+/* ROBOTO */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/roboto/roboto-v30-latin-300.woff2') format('woff2'),
+    url('./assets/fonts/roboto/roboto-v30-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/roboto/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('./assets/fonts/roboto/roboto-v30-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/roboto/roboto-v30-latin-500.woff2') format('woff2'),
+    url('./assets/fonts/roboto/roboto-v30-latin-500.woff') format('woff');
+}
+
+/* ROWDIES */
+
+@font-face {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/rowdies/rowdies-v15-latin-300.woff2') format('woff2'),
+    url('./assets/fonts/rowdies/rowdies-v15-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/rowdies/rowdies-v15-latin-regular.woff2') format('woff2'),
+    url('./assets/fonts/rowdies/rowdies-v15-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/rowdies/rowdies-v15-latin-700.woff2') format('woff2'),
+    url('./assets/fonts/rowdies/rowdies-v15-latin-700.woff') format('woff');
+}
+
+/* MAIN DESIGN */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  background-color: #F5F5F5;
+}
+
+.container {
+  max-width: 1313px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background: #FFEFBA;
+  background: linear-gradient(0deg, #ffefbad6 58%, #FFFFFF 100%);
+  height: 758px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 108px;
+  height: 48px;
+  margin-top: 40px;
+  user-select: none;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 19%;
+}
+
+.navbar-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.navbar-menu-list-item {
+  list-style: none;
+  margin-left: 53px;
+}
+
+.navbar-menu-list-item:first-child {
+  margin-left: 0;
+}
+
+.navbar-menu-list-item-link {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.navbar-menu-list-item-link:hover {
+  color: #FF7F00;
+  transition: 0.2s;
+}
+
+.navbar-buy-now-btn {
+  font-family: 'Rowdies', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 300;
+  color: #FFF;
+  background-color: #FF9635;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.navbar-buy-now-btn:hover {
+  background-color: #FF7F00;
+  transition: 0.3s;
+}
+
+/* HERO SECTION */
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.hero-left-top-content-txt {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: normal;
+  margin-top: 2px;
+}
+
+.hero-left-content {
+  width: 38%;
+}
+
+.hero-right-content {
+  width: 52.4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-right-img {
+  width: 539px;
+  height: 428px;
+  user-select: none;
+}
+
+.hero-left-bottom-content-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: normal;
+  margin-top: 31px;
+}
+
+.hero-next-btn {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-next-btn:hover .hero-next-img {
+  transform: scale(1.04);
+  transition: 0.3s;
+}
+
+.chouse-section {
+  display: flex;
+  margin-top: 33px;
+  margin-left: 2px;
+}
+
+.chouse-box {
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  border-radius: 5px;
+}
+
+.chouse-brand-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chouse-brand {
+  padding: 0 30px 0 36px;
+}
+
+.chouse-brand-txt-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-brand-select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-brand-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.chouse-brand-select {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 43px;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.chouse-right-line {
+  width: 1px;
+  height: 50px;
+  background-color: #000;
+}
+
+.chouse-person-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chouse-person {
+  padding: 0 51px 0 59px;
+}
+
+.chouse-person-txt-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-person-select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-person-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.chouse-person-select {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 43px;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  width: 82%
+}
+
+.chouse-size-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chouse-size {
+  padding: 0 28px 0 36px;
+}
+
+.chouse-size-txt-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-size-select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-size-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.chouse-size-select {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 43px;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  width: 83%;
+}
+
+.chouse-price-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chouse-price {
+  padding: 0 28px 0 57px;
+}
+
+.chouse-price-txt-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-price-select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chouse-price-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.chouse-price-select {
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 43px;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.chouse-buy-now-btn {
+  font-family: 'Rowdies', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 300;
+  color: #FFF;
+  background-color: #FF9635;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 23px;
+  margin-right: 17px;
+}
+
+.chouse-buy-now-btn:hover {
+  background-color: #FF7F00;
+  transition: 0.3s;
+}
+
+/* FOOTER */
+
+.Footer {
+  margin-top: 1000px;
 }
