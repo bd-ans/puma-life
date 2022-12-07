@@ -699,6 +699,124 @@ body {
   text-decoration: underline;
 }
 
+/* GALLARY SECTIO */
+
+.gallery-inner {
+  margin: 0 31px;
+  margin-right: 40px;
+  margin-top: 236px;
+}
+
+.gallery-top-short-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FF8947;
+}
+
+.gallery-top-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  color: #000;
+  margin-top: 7px;
+}
+
+.gallary-caterogies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 31px;
+}
+
+.gallary-caterogies-left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallary-caterogies-list {
+  margin-left: 10%
+}
+
+.gallary-caterogies-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.gallary-caterogies-list-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.gallary-caterogies-list-li {
+  margin-left: 25px;
+}
+
+.gallary-caterogies-list-li:first-child {
+  margin-left: 0;
+}
+
+.gallary-caterogies-list-btn {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.gallary-caterogies-list-btn:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: #FF7F00;
+}
+
+.gallary-caterogies-list-li:nth-child(2) .gallary-caterogies-list-btn:nth-child(1) {
+  text-decoration: underline;
+  text-decoration-color: #FF7F00;
+}
+
+.gallary-caterogies-btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallary-caterogies-next-btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallary-caterogies-next-btn:first-child {
+  margin-right: 47px;
+}
+
+.gallary-caterogies-next-btn-img {
+  width: 58px;
+  height: 58px;
+}
+
+.gallary-caterogies-next-btn-img:hover {
+  transition: 0.3s;
+  transform: scale(1.04);
+}
+
+
 /* FOOTER */
 
 .Footer {
