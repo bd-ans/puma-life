@@ -27,7 +27,7 @@ export default function SignUpSec() {
                 </p>
                 {/* RIGHT SIDE FORM */}
                 <form className="sign-up-sec-right-side-inner-form" action="https://echo.htmlacademy.ru" method="POST">
-                  <input className="sign-up-sec-right-side-inner-form-input" type="text" name="email address" placeholder="Enter your email address" maxLength={30} />
+                  <input className="sign-up-sec-right-side-inner-form-input" autoComplete="none" type="text" name="email address" placeholder="Enter your email address" maxLength={30} />
                   <button className="sign-up-sec-right-side-inner-form-btn" type="submit">Send</button>
                 </form>
               </div>

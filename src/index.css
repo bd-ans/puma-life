@@ -1054,8 +1054,8 @@ body {
   border-radius: 5px;
   padding: 0 26px;
   outline: none;
-  border-top-right-radius: 0%;
-  border-bottom-right-radius: 0%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .sign-up-sec-right-side-inner-form-btn {
@@ -1070,8 +1070,8 @@ body {
   border-radius: 7px;
   cursor: pointer;
   padding: 0 24px;
-  border-top-left-radius: 1%;
-  border-bottom-left-radius: 1%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* FOOTER */
