@@ -1174,6 +1174,11 @@ body {
   margin-left: 0;
 }
 
+.footer-social-medias-box-link:hover {
+  scale: 1.07;
+  transition: all 0.3s ease-in-out;
+}
+
 .footer-social-medias-box-icon {
   margin-left: -5px;
 }
