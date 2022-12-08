@@ -1,4 +1,5 @@
 import siteLogo from '../assets/images/logo.svg'; /* import site logo */
+
 export default function NavbarSec() { /* export NavbarSec component */
   return (
     <>
@@ -49,11 +50,9 @@ export default function NavbarSec() { /* export NavbarSec component */
             <button className='navbar-buy-now-btn' type='button'>
               Buy Now
             </button>
-
           </nav>
         </div>
       </div>
-
     </>
   )
 };

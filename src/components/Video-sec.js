@@ -1,6 +1,7 @@
-import VideoBackImg from '../assets/images/bag-ekskalatordan-opa.png'; /* IMPORT IMG */
-import VideoOldImg from '../assets/images/sumkali-op.png'; /* IMPORT IMG */
-import VideoPlayImg from '../assets/images/play-video.png'; /* IMPORT IMG */
+import VideoBackImg from '../assets/images/bag-ekskalatordan-opa.png'; /* IMPORT VIDEO BACK IMG */
+import VideoOldImg from '../assets/images/sumkali-op.png'; /* IMPORT VIDEO OLD IMG */
+import VideoPlayImg from '../assets/images/play-video.png'; /* IMPORT VIDEO PLAY IMG */
+
 export default function VideoSec() { /* EXPORT VIDEO SECTION */
   return (
     <>
@@ -54,7 +55,6 @@ export default function VideoSec() { /* EXPORT VIDEO SECTION */
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>

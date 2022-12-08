@@ -1,5 +1,4 @@
 /* FONTS */
-
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
@@ -1181,4 +1180,16 @@ body {
 
 .footer-social-medias-box-icon {
   margin-left: -5px;
+}
+
+.footer-bottom-section {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 18px;
+  border-top: 1px solid #797979;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

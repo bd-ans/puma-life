@@ -1,6 +1,6 @@
-import SignUpSecLeftSideImg from "../assets/images/signUp.png"; // import image
+import SignUpSecLeftSideImg from "../assets/images/signUp.png"; // import SignUpSecLeftSideImg from "../assets/images/signUp.png";  /* IMPORT SIGN UP SECTION LEFT SIDE IMG */
 
-export default function SignUpSec() {
+export default function SignUpSec() { /* EXPORT DEFAULT SIGN UP SECTION */
   return (
     <>
       {/* SIGN UP SECTION */}

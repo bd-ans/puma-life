@@ -1,11 +1,11 @@
-import ToRightBtnImg from "../assets/images/toRight.svg";
-import ToLeftBtnImg from "../assets/images/toLeft.svg";
-import RsxBoldSneaker from "../assets/images/rx-xBold.png";
-import DubbleXlSneaker from "../assets/images/sneakers.png";
-import FerrariSneaker from "../assets/images/ferrari.png";
-import RunningSneaker from "../assets/images/running.png";
+import ToRightBtnImg from "../assets/images/toRight.svg"; /* IMPORT TO RIGHT IMG */
+import ToLeftBtnImg from "../assets/images/toLeft.svg"; /* IMPORT TO LEFT IMG */
+import RsxBoldSneaker from "../assets/images/rx-xBold.png"; /* IMPORT RX-X BOLD SNEAKER IMG */
+import DubbleXlSneaker from "../assets/images/sneakers.png";  /* IMPORT DUBBLE XL SNEAKER IMG */
+import FerrariSneaker from "../assets/images/ferrari.png";  /* IMPORT FERRARI SNEAKER IMG */
+import RunningSneaker from "../assets/images/running.png";  /* IMPORT RUNNING SNEAKER IMG */
 
-export default function GallarySec() {
+export default function GallarySec() { /* EXPORT GALLARY SEC */
   return (
     <>
       {/* GALARY SECTION */}

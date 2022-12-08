@@ -1,6 +1,7 @@
 import QualitySvg from "../assets/images/quality.svg"; /* IMPORT IMG */
 import FlexibleSvg from "../assets/images/Flexible.svg"; /* IMPORT IMG */
 import LongLastingSvg from "../assets/images/LongLasting.svg"; /* IMPORT IMG */
+
 export default function FeatureSec() {
   return (
     <>

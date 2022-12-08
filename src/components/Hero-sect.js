@@ -1,6 +1,7 @@
 import HeroRightImg from '../assets/images/header-krasovka.svg'; /* IMPORT HERO RIGHT IMG */
 import HeroNextImg from '../assets/images/next.svg'; /* IMPORT HERO NEXT IMG */
 import ChouseSec from './Chouse-sec';
+
 export default function HeroSec() { /* EXPORT HERO SECTION */
   return (
     <>

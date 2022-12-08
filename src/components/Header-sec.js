@@ -1,5 +1,6 @@
 import NavbarSec from './Navbar-sec'; /* IMPORT NAVBAR SECTION */
 import HeroSec from './Hero-sect'; /* IMPORT HERO SECTION */
+
 export default function HeaderSec() { /* EXPORT HEADER SECTION */
   return (
     <>
@@ -10,5 +11,5 @@ export default function HeaderSec() { /* EXPORT HEADER SECTION */
         <HeroSec />
       </div>
     </>
-  )
+  );
 };

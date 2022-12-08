@@ -1,4 +1,4 @@
-export default function ChouseSec() {
+export default function ChouseSec() { /* EXPORT DEFAULT CHOUSE SECTION */
   return (
     <>
       {/* CHOUSE SECTION */}

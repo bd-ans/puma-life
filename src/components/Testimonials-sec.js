@@ -1,7 +1,7 @@
-import TeastamolialsImg from '../assets/images/testimonials.png'; // import image
-import AnnaPaulwerImg from '../assets/images/AnnaPaulwer.svg'; // import image
-import TestamonialsToRightBtnImg from "../assets/images/toRight.svg"; // import image
-import TestamonialsToLeftBtnImg from "../assets/images/toLeft.svg"; // import image
+import TeastamolialsImg from '../assets/images/testimonials.png'; // import Testamonials image
+import AnnaPaulwerImg from '../assets/images/AnnaPaulwer.svg'; // import AnnaPaulwer image
+import TestamonialsToRightBtnImg from "../assets/images/toRight.svg"; // import TO RIGHT IMG
+import TestamonialsToLeftBtnImg from "../assets/images/toLeft.svg"; // import TO LEFT IMG
 
 export default function TestimonialsSec() { /* export TestimonialsSec component */
   return (
