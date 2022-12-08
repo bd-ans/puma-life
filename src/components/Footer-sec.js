@@ -17,12 +17,12 @@ export default function FooterSec() { /* EXPORT FOOTER SECTION */
                   src={FooterSiteLogoImg}
                   alt="Site Logo" />
 
-                  <div className="footer-site-address">
-                    <address className="footer-site-address-inner">
-                      10 New Town Street, V2 <br />
-                      5NW, Newstate. USA
-                    </address>
-                  </div>
+                <div className="footer-site-address">
+                  <address className="footer-site-address-inner">
+                    10 New Town Street, V2 <br />
+                    5NW, Newstate. USA
+                  </address>
+                </div>
               </div>
               {/* FOOTER TOP SECTION RIGHT SIDE */}
               <div className="footer-top-section-right-side">
@@ -85,6 +85,12 @@ export default function FooterSec() { /* EXPORT FOOTER SECTION */
                   </ul>
                 </div>
               </div>
+            </div>
+            {/* FOOTER CENTER SECTION */}
+            <div className="footer-center-section">
+              <a href="mailto:shahzodbadriyev523@gmail.com" className="footer-center-section-link">
+                shahzodbadriyev523@gmail.com
+              </a>
             </div>
           </div>
         </div>
