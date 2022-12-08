@@ -1,4 +1,8 @@
 import FooterSiteLogoImg from "../assets/images/logo.svg"; // FOOTER SITE LOGO IMAGE
+import FacebookIconImg from "../assets/images/facebook.svg"; // FACEBOOK ICON IMAGE
+import InstagramIconImg from "../assets/images/instagram.svg"; // INSTAGRAM ICON IMAGE
+import TwitterIconImg from "../assets/images/twitter.svg"; // TWITTER ICON IMAGE
+import GoogleIconImg from "../assets/images/google.png"; // GOOGLE ICON IMAGE
 
 export default function FooterSec() { /* EXPORT FOOTER SECTION */
   return (
@@ -91,6 +95,37 @@ export default function FooterSec() { /* EXPORT FOOTER SECTION */
               <a href="mailto:shahzodbadriyev523@gmail.com" className="footer-center-section-link">
                 shahzodbadriyev523@gmail.com
               </a>
+              {/* FOOTER SOCIAL MEDIAS */}
+              <div className="footer-social-medias-box">
+                <a href="facebook.com" className="footer-social-medias-box-link">
+                  <img className="footer-social-medias-box-icon"
+                    width={48}
+                    height={48}
+                    src={FacebookIconImg}
+                    alt="Facebook Icon"/>
+                </a>
+                <a href="instagram.com" className="footer-social-medias-box-link">
+                  <img className="footer-social-medias-box-icon"
+                    width={48}
+                    height={48}
+                    src={InstagramIconImg}
+                    alt="Instagram Icon"/>
+                </a>
+                <a href="twitter.com" className="footer-social-medias-box-link">
+                  <img className="footer-social-medias-box-icon"
+                    width={48}
+                    height={48}
+                    src={TwitterIconImg}
+                    alt="Twitter Icon"/>
+                </a>
+                <a href="google.com" className="footer-social-medias-box-link">
+                  <img className="footer-social-medias-box-icon"
+                    width={48}
+                    height={48}
+                    src={GoogleIconImg}
+                    alt="Google Icon"/>
+                </a>
+              </div>
             </div>
           </div>
         </div>

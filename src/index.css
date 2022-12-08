@@ -1157,3 +1157,22 @@ body {
   text-decoration: none;
   color: #000;
 }
+
+.footer-social-medias-box {
+  display: flex;
+  margin-top: 9px;
+  flex-wrap: wrap;
+}
+
+.footer-social-medias-box-link {
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.footer-social-medias-box-link:first-child {
+  margin-left: 0;
+}
+
+.footer-social-medias-box-icon {
+  margin-left: -5px;
+}
