@@ -1135,6 +1135,12 @@ body {
   line-height: 1.6;
 }
 
+.footer-top-section-right-side-cards-list-item-link:hover {
+  color: #FF9635;
+  text-decoration: underline;
+  transition: ease-in-out 0.2s;
+}
+
 .footer-top-section-right-side-cards-list-item-last-link {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -1155,6 +1161,12 @@ body {
   font-size: 20px;
   text-decoration: none;
   color: #000;
+}
+
+.footer-center-section-link:hover {
+  color: #FF9635;
+  text-decoration: underline;
+  transition: ease-in-out 0.2s;
 }
 
 .footer-social-medias-box {
