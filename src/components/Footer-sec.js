@@ -113,15 +113,15 @@ export default function FooterSec() { /* EXPORT FOOTER SECTION */
                 </a>
                 <a href="twitter.com" className="footer-social-medias-box-link">
                   <img className="footer-social-medias-box-icon"
-                    width={48}
-                    height={48}
+                    width={39}
+                    height={39}
                     src={TwitterIconImg}
                     alt="Twitter Icon"/>
                 </a>
                 <a href="google.com" className="footer-social-medias-box-link">
                   <img className="footer-social-medias-box-icon"
-                    width={48}
-                    height={48}
+                    width={43}
+                    height={43}
                     src={GoogleIconImg}
                     alt="Google Icon"/>
                 </a>

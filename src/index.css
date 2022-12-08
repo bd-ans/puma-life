@@ -1162,11 +1162,12 @@ body {
   display: flex;
   margin-top: 9px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .footer-social-medias-box-link {
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 45px;
 }
 
 .footer-social-medias-box-link:first-child {
