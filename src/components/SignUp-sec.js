@@ -21,10 +21,15 @@ export default function SignUpSec() {
                 <h2 className="sign-up-sec-right-side-inner-heading">
                   Sign Up to our Newsletter
                 </h2>
-                
+                {/* RIGHT SIDE P TAG */}
                 <p className="sign-up-sec-right-side-inner-p">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque <br /> in elementum tempus, vestibulum faucibus tortor odio elit.
                 </p>
+                {/* RIGHT SIDE FORM */}
+                <form className="sign-up-sec-right-side-inner-form" action="https://echo.htmlacademy.ru" method="POST">
+                  <input className="sign-up-sec-right-side-inner-form-input" type="text" name="email address" placeholder="Enter your email address" maxLength={30} />
+                  <button className="sign-up-sec-right-side-inner-form-btn" type="submit">Send</button>
+                </form>
               </div>
             </div>
           </div>

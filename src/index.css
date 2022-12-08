@@ -1036,7 +1036,43 @@ body {
   margin-top: 42px;
 }
 
+.sign-up-sec-right-side-inner-form {
+  display: flex;
+  margin-top: 50px;
+}
 
+.sign-up-sec-right-side-inner-form-input {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: normal;
+  width: 75.6%;
+  height: 52px;
+  background: #ffffff97;
+  border: 2px solid #FFF ;
+  border-radius: 5px;
+  padding: 0 26px;
+  outline: none;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.sign-up-sec-right-side-inner-form-btn {
+  height: 52px;
+  background-color: #FFF;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #FFF;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 0 24px;
+  border-top-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+}
 
 /* FOOTER */
 
