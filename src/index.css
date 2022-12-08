@@ -941,9 +941,11 @@ body {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 55px;
-  height: 55px;
+}
+
+.testamonial-right-side-top-content-navigation-btns-toLeft:hover {
+  transition: 0.3s;
+  transform: scale(1.04);
 }
 
 
