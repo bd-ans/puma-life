@@ -1,4 +1,4 @@
-import SignUpSecLeftSideImg from "../assets/images/signUp.png";
+import SignUpSecLeftSideImg from "../assets/images/signUp.png"; // import image
 
 export default function SignUpSec() {
   return (
