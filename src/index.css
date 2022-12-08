@@ -984,6 +984,59 @@ body {
   margin-top: 8px;
 }
 
+/* SIGN UP SECTION */
+
+.sign-up-sec-innner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 186px;
+  background: #FF9068;
+  background: linear-gradient(50deg, #FD746C 1%, #FF9068 100%);
+  border-radius: 18px;
+  height: auto;
+}
+
+.sign-up-sec-left-side {
+  /* width: 50%; */
+  /* background-color: #FF9635; */
+  border-radius: 18px 0 0 18px;
+  display: flex;
+}
+
+.sign-up-sec-left-side-img {
+  width: 564px;
+  height: 374px;
+}
+
+.sign-up-sec-right-side {
+  width: 53%;
+  border-radius: 0 18px 18px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-sec-right-side-inner {
+  width: 100%;
+}
+
+.sign-up-sec-right-side-inner-heading {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  margin-top: 49px;
+}
+
+.sign-up-sec-right-side-inner-p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: normal;
+  margin-top: 42px;
+}
+
+
 
 /* FOOTER */
 
