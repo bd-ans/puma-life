@@ -3,6 +3,7 @@ import FooterSec from './components/Footer-sec'; /* IMPORT FOOTER SECTION */
 import VideoSec from './components/Video-sec'; /* IMPORT VIDEO SECTION */
 import FeatureSec from './components/Feature-sec'; /* IMPORT FEATURE SECTION */
 import GallarySec from './components/Gallary-sec'; /* IMPORT GALLARY SECTION */
+import TestimonialsSec from './components/Testimonials-sec'; /* IMPORT GALLARY SECTION */
 function App() { /* EXPORT APP */
   return (
     <>
@@ -14,6 +15,8 @@ function App() { /* EXPORT APP */
       <FeatureSec />
       {/* GALLARY SECTION */}
       <GallarySec />
+      {/* TESTIMONIALS SECTION */}
+      <TestimonialsSec />
       {/* FOOTER SECTION */}
       <FooterSec />
     </>
