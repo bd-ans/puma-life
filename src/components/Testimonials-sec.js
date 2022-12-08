@@ -57,6 +57,21 @@ export default function TestimonialsSec() { /* export TestimonialsSec component 
                     </button>
                   </div>
                 </div>
+                {/* TESTAMONIAL RIGHT SIDE BOTTOM CONTENT */}
+                <div className="testamonial-right-side-bottom-content">
+                  <h3 className="testamonial-right-side-bottom-content-text">
+                    Their services was best and friendly
+                  </h3>
+                  <p className="testamonial-right-side-bottom-content-p">
+                    Lorem ipsum dolor sit amet, consectetur adipis <br /> cing elit. Eleifend 
+                  </p>
+                  <h4 className="testamonial-right-side-bottom-content-user-txt">
+                    Anna Paulwer
+                  </h4>
+                  <p className="testamonial-right-side-bottom-content-user-span">
+                    Athletic
+                  </p>
+                </div>
               </div>
             </div>
           </div>

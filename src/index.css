@@ -948,6 +948,41 @@ body {
   transform: scale(1.04);
 }
 
+.testamonial-right-side-bottom-content {
+  margin-top: 11px;
+  margin-left: 3px;
+}
+
+.testamonial-right-side-bottom-content-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.testamonial-right-side-bottom-content-p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.testamonial-right-side-bottom-content-user-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.testamonial-right-side-bottom-content-user-span {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: 8px;
+}
 
 
 /* FOOTER */
